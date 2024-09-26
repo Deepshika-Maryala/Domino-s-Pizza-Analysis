@@ -19,20 +19,30 @@ EDA involved exploring the sales data to answer the key questions such as:
 ### Data Analysis:
 Analyzing Total revenue , total orders, total pizza sold, average order value and Average pizzas per order using SQL.
 ```sql
-Select sum(pizza_sales) as Total Revenue from pizza_sales;
+Select sum(total_price) as Total_Revenue from pizza_sales;
 ```
+![Screenshot 2024-09-26 161651](https://github.com/user-attachments/assets/6cc18174-59c4-404f-b104-f89251db3a81)
+
 ```sql
-Select count(distinct(order_id)) as Total Order from pizza_sales;
+Select count(distinct(order_id)) as Total_Order from pizza_sales;
 ```
+![Screenshot 2024-09-26 161907](https://github.com/user-attachments/assets/a85010eb-29a5-4610-adbd-e5d1ff6aeaf1)
+
 ```sql
-Select sum(quantity) as Total Pizza sold from pizza_sales;
+Select sum(quantity) as Total_Pizza_sold from pizza_sales;
 ```
+![Screenshot 2024-09-26 161931](https://github.com/user-attachments/assets/488a864e-6739-4fb0-aa28-38ab11ce80d7)
+
 ```sql
-Select (sum(pizza_sales)/count(distinct(order_id))) as Average Order Value from pizza_sales;
+Select (sum(total_price)/count(distinct(order_id))) as Average_Order_Value from pizza_sales;
 ```
+![Screenshot 2024-09-26 161955](https://github.com/user-attachments/assets/9d319cbd-5e97-431c-af06-a0b7b853e475)
+
 ```sql
-Select (sum(quantity)/count(distinct(order_id))) as Average pizzas per order from pizza_sales;
+Select (sum(quantity)/count(distinct(order_id))) as Average_pizzas_per_order from pizza_sales;
 ```
+![Screenshot 2024-09-26 162020](https://github.com/user-attachments/assets/143dd980-acb8-4719-968a-54c9af80dca2)
+
 ### Insights And Findings:
 - Sales have been highest mainly on friday and saturday in evenings.
 - Large size pizza has contributes to maximum sales and total orders. 
@@ -62,6 +72,13 @@ Select (sum(quantity)/count(distinct(order_id))) as Average pizzas per order fro
 ### Project Phases And Milestones:
 - Data Collection and Preparation: May 2024
 - Dashboard Design and Development: July 2024
+## Report Snapshots (Power BI Desktop):
+
+![Screenshot 2024-09-26 163300](https://github.com/user-attachments/assets/aeae4d67-a4be-40a5-b4d4-2d0d23a600f2)
+
+
+
+![Screenshot 2024-09-26 163448](https://github.com/user-attachments/assets/8e18632f-42fd-4c41-999d-218131302086)
 
 
 
