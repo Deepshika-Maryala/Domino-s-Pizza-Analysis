@@ -57,8 +57,8 @@ Select (sum(quantity)/count(distinct(order_id))) as Average pizzas per order fro
 - Bottom 5 best sellers by total revenue: Analyzing the sales of bottom 5 best selling pizzas.
 - Bottom 5 best sellers by total quantity: Analyzing the total quantity of the bottom 5 best selling pizzas.
 ### User Interactive features:
-- Filters: Allows the user to filter by city.
-- Slicers: Provides options such as amount and quantity wise sales
+- Filters: Allows the user to filter by pizza category.
+- Slicers: Provide options for different time periods (days, months).
 ### Project Phases And Milestones:
 - Data Collection and Preparation: May 2024
 - Dashboard Design and Development: July 2024
