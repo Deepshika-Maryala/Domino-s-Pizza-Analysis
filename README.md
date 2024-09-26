@@ -33,6 +33,9 @@ Select (sum(pizza_sales)/count(distinct(order_id))) as Average Order Value from 
 ```sql
 Select (sum(quantity)/count(distinct(order_id))) as Average pizzas per order from pizza_sales;
 ```
+### Insights And Findings:
+- Sales have been highest mainly on friday and saturday in evenings.
+- Large size pizza has contributes to maximum sales and total orders. 
 ### Analyzes Metrics:
 - Total Revenue
 - Total Pizza Sold
@@ -53,6 +56,13 @@ Select (sum(quantity)/count(distinct(order_id))) as Average pizzas per order fro
 - Top 5 best sellers by total quantity: Analyzing the total quantity of the top 5 best selling pizzas.
 - Bottom 5 best sellers by total revenue: Analyzing the sales of bottom 5 best selling pizzas.
 - Bottom 5 best sellers by total quantity: Analyzing the total quantity of the bottom 5 best selling pizzas.
+### User Interactive features:
+- Filters: Allows the user to filter by city.
+- Slicers: Provides options such as amount and quantity wise sales
+### Project Phases And Milestones:
+- Data Collection and Preparation: May 2024
+- Dashboard Design and Development: July 2024
+
 
 
 
